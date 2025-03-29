@@ -14,17 +14,7 @@ Rock crushes Scissor<br>
 Scissor cuts Paper<br>
 Paper covers Rock<br>
 <hr>
-Game Rules 📏<br>
-You Choose	    Bot Chooses	      Result<br>
-Rock (0)	      Rock (0)	        Draw<br>
-Rock (0)	      Scissor (1)	      Win<br>
-Rock (0)	      Paper (2)	        Lose<br>
-Scissor (1)   	Rock (0)	        Lose<br>
-Scissor (1)   	Scissor (1)     	Draw<br>
-Scissor (1)   	Paper (2)       	Win<br>
-Paper (2)	      Rock (0)        	Win<br>
-Paper (2)     	Scissor (1)     	Lose<br>
-Paper (2)     	Paper (2)       	Draw<br>
+![image](https://github.com/user-attachments/assets/a05171e3-f29d-40c2-86ce-b16e0b6a400b)
 <hr>
 How to Run 🚀<br>
 Clone or Download: Get this code on your system.<br>
