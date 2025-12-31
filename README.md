@@ -14,7 +14,8 @@ Rock crushes Scissor<br>
 Scissor cuts Paper<br>
 Paper covers Rock<br>
 <hr>
-![image](https://github.com/user-attachments/assets/a05171e3-f29d-40c2-86ce-b16e0b6a400b)
+<img src="https://github.com/user-attachments/assets/a05171e3-f29d-40c2-86ce-b16e0b6a400b">
+<!-- ![image](https://github.com/user-attachments/assets/a05171e3-f29d-40c2-86ce-b16e0b6a400b) -->
 <hr>
 How to Run 🚀<br>
 Clone or Download: Get this code on your system.<br>
