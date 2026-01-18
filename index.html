@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors | Game</title>
+    <link rel="icon" href="./Assets/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Rock Paper Scissors</h1>
+    </main>
+    <div class="scoreBoard">
+      <h3 id="score"></h3>
+    </div>
+
+    <div class="box">
+      <h3>Select an option</h3>
+
+      <div class="options">
+        <div class="img-container">
+          <img class="images" id="0" src="./Assets/rock.png" alt="Rock" />
+        </div>
+
+        <div class="img-container">
+          <img class="images" id="1" src="./Assets/paper.png" alt="Paper" />
+        </div>
+
+        <div class="img-container">
+          <img class="images" id="2" src="./Assets/scissor.png" alt="Scissor" />
+        </div>
+      </div>
+      <div class="result">
+        <h2 id="message"></h2>
+        <p id="botChoice"></p>
+      </div>
+      <button id="reset-btn">Restart</button>
+    </div>
+
+    <div class="rules">
+      <img
+        id="rules"
+        src="./Assets/rock-paper-scissors-game-rules.png"
+        alt="Rules"
+      />
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>

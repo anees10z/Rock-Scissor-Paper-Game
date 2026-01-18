@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-align: center;
+}
+
+body {
+  background-color: #212121;
+  color: white;
+}
+
+main {
+  margin: 15px 0;
+}
+
+/* MAIN BOX */
+.box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/* OPTIONS ROW */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  gap: 15px;
+}
+
+/* IMAGE CONTAINER */
+.img-container {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* IMAGE ITSELF */
+.img-container img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+#message{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#reset-btn {
+  height: 2.5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid whitesmoke;
+  border-radius: 18px;
+  background-color: lavender;
+  color: maroon;
+  box-shadow: 0 0 5px maroon;
+}
+.hide {
+  display: none;
+}
+
+#rules{
+  height: 200px;
+  width: 250px;
+}
+.rules{
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 400px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  main{
+    margin-top: 25%;
+  }
+  .box {
+    margin-top: 15%;
+    max-width: 90%;
+  }
+
+  .img-container {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.scoreBoard{
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+#score{
+  font-weight: bold;
+  color: white;
+}
+
+.win{
+  color: green;
+}
+.lose{
+  color: red;
+}
+.draw{
+  color: yellow;
+}
