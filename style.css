@@ -86,7 +86,7 @@ main {
 }
 
 /* RESPONSIVE */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   main{
     margin-top: 25%;
   }
@@ -122,3 +122,4 @@ main {
   color: yellow;
 
 }
+
