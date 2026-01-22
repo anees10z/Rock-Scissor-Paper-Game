@@ -36,7 +36,7 @@ function winCheck(userOption) {
   let randomOption = Math.floor(Math.random() * 3);
   let res = options[userOption][randomOption];
   scoreBoardUpdate(res);
-  score.innerHTML = `Win = ${win}  Lose = ${lose}  Draw = ${draw}`;
+  score.innerHTML = `Win = ${win}&nbsp;|&nbsp;Lose = ${lose}&nbsp;|&nbsp;Draw = ${draw}`;
   gameResult.innerHTML = res;
   botChoice.innerHTML = `Bot choice: ${elements[randomOption]}`;
   restart.classList.remove("hide");
@@ -67,3 +67,4 @@ function scoreBoardUpdate(res) {
     gameResult.classList.add("draw");
   }
 }
+
